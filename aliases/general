@@ -1,5 +1,5 @@
 alias g="git"
-alias l="ls --human-readable --size -1 -S --classify"
+alias l="ls --human-readable --size -1 -S -a --classify"
 alias c="xclip -sel clip"
 alias co="xclip -o"
 alias h="history | grep $1"
