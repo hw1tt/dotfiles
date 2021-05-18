@@ -1,0 +1,11 @@
+[alias]
+  s = status
+  d = diff
+  l = log
+  acm = !git add -A && git commit -m
+  res = "!sh -c \"git reset --soft HEAD~$1\""
+  ampf = !git add -A && git commit --amend --no-edit && git push --force
+  acma = !git add -A && git commit --amend --no-edit
+  msg = !git --no-pager show -s --format=%s
+  resh = !git fetch --all && git reset --hard FETCH_HEAD
+  pushf = push --force
